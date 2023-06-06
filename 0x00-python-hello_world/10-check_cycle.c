@@ -20,6 +20,8 @@ int check_cycle(listint_t *list)
 			return (0);
 		f = f->next->next;
 		s = s->next;
+		if (f == s)
+			return (1);
 	}
 	return (1);
 }
