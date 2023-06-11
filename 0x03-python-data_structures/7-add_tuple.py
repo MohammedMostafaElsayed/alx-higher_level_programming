@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 def add_tuple(tuple_a=(), tuple_b=()):
-    xx = []
+    x = []
     w = list(tuple_b)
     z = list(tuple_a)
     for j in range(0, 2):
