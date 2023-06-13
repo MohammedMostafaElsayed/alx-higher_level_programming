@@ -18,4 +18,4 @@ if __name__ == '__main__':
     else:
         print("Usage: ./100-my_calculator.py <a> <operator> <b>")
         exit(1)
-    print(sum)
+    print("{:d} {:s} {:d} = {:d}".format(x1, argv[2], x2, sum))
