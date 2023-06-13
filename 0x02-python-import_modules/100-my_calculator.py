@@ -15,6 +15,9 @@ if __name__ == '__main__':
             sum = mul(x1, x2)
         elif argv[2] == '/':
             sum = div(x1, x2)
+        else:
+            print("Unknown operator. Available operators: +, -, * and /")
+            exit(1)
     else:
         print("Usage: ./100-my_calculator.py <a> <operator> <b>")
         exit(1)
