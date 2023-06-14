@@ -7,4 +7,4 @@ def best_score(a_dictionary):
         for i in a_dictionary:
             if a_dictionary[i] == x:
                 break
-    return i
+        return i
