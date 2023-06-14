@@ -4,7 +4,6 @@ def best_score(a_dictionary):
         return None
     else:
         x = max(list(a_dictionary.values()))
-        for i in a_dictionary:
-            if a_dictionary[i] == x:
-                break
-        return i
+        for i, v in a_dictionary.items():
+            if v == x:
+                return i
