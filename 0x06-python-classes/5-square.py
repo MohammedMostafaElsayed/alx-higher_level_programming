@@ -6,7 +6,6 @@ class Square():
     """reresent Square"""
 
     __size = None
-    __position = None
 
     def __init__(self, size=0, position=(0, 0)):
         if not isinstance(size, int):
@@ -29,13 +28,6 @@ class Square():
         elif value < 0:
             raise ValueError("size must be >= 0")
         self.__size = value
-    @property
-    def position(self):
-        return self.__position
-
-    @position.setter
-    def position(set, value):
-        
 
     def my_print(self):
         if self.size == 0:
