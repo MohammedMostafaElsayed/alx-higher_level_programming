@@ -3,4 +3,5 @@
 
 
 def lookup(obj):
+    """start function """
     return dir(obj)
